@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    # kafka部署的服务器ip + port
+    bootstrap-servers: 192.168.1.252:9092
+    consumer:
+      group-id: addrlist
+      #实时生产，实时消费
+      auto-offset-reset: latest
+      #自动提交
+      enable-auto-commit: true
+      #提交间隔时间
+      auto-commit-interval: 100

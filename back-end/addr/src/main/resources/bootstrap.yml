@@ -1,0 +1,38 @@
+eureka:
+  instance:
+    preferIpAddress: true
+    metadataMap:
+      configPath: /
+  client:
+    serviceUrl:
+      #注册中心，需要配置
+      defaultZone: ${UOP_EUREKA_URL:http://192.168.1.250:10006/eureka/}
+
+spring:
+  application:
+    # 服务名
+    name: ${UOP_SERVER_NAME:addrlist}
+#  cloud:
+#    config:
+#      #对应ACM里的应用，多个应用，以逗号分隔，大小写敏感
+#      name: TEST
+#      #对应ACM里的domain，多个domain，以逗号分隔，大小写敏感
+#      profile: biz,route,uop
+#      discovery:
+#        enabled: true
+#        #默认为ACM-SERVER，如果ACM服务在Eureka里改名了，则需要修改，否则不需要修改
+#        service-id: ACM-SERVICE
+
+uop:
+  mcs:
+    client:
+      app: LK-0100004.LK004
+      config:
+        type: file
+      enable: false
+  acm:
+    bootstrap:
+      #指定域或者应用，格式：sysKey.appKey.domain，其中.domain可不写，多个app以逗号分割
+#      app: LK-0100004.LK004.biz,LK-0100004.LK004.uop
+      app: ZD-UOP.BUILTIN.txl,LK-0100004.LK004.biz
+      service-id: ACM-CORE-SERVICE

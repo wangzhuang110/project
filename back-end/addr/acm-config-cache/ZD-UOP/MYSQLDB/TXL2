@@ -1,0 +1,43 @@
+{
+  "systemKey" : "ZD-UOP",
+  "appKey" : "MYSQLDB",
+  "domains" : [ {
+    "name" : "TXL1",
+    "configs" : [ {
+      "key" : "TXL1.jdbc.port",
+      "value" : "3306",
+      "desc" : null
+    }, {
+      "key" : "TXL1.jdbc.database",
+      "value" : "TXL1",
+      "desc" : null
+    }, {
+      "key" : "TXL1.jdbc.desc",
+      "value" : "通信录",
+      "desc" : null
+    }, {
+      "key" : "TXL1.jdbc.host",
+      "value" : "192.168.1.250",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "TXL2",
+    "configs" : [ {
+      "key" : "TXL2.jdbc.host",
+      "value" : "192.168.1.250",
+      "desc" : null
+    }, {
+      "key" : "TXL2.jdbc.database",
+      "value" : "TXL2",
+      "desc" : null
+    }, {
+      "key" : "TXL2.jdbc.port",
+      "value" : "3306",
+      "desc" : null
+    }, {
+      "key" : "TXL2.jdbc.desc",
+      "value" : "通信录",
+      "desc" : null
+    } ]
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "systemKey" : "LK-0100004",
+  "appKey" : "LK004",
+  "domains" : [ {
+    "name" : "biz",
+    "configs" : [ {
+      "key" : "Addr_unitFile",
+      "value" : "/opt/addr/unit_file",
+      "desc" : null
+    }, {
+      "key" : "Addr_groupFile",
+      "value" : "/opt/addr/addr_file",
+      "desc" : null
+    } ]
+  } ]
+}

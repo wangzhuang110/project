@@ -1,0 +1,162 @@
+file:
+   unitPath: ${Addr_unitFile:D:\unitFile}
+   groupPath: ${Addr_groupFile:D:\groupFile}
+
+send: ${Addr_ip:192.168.1.252}
+
+seatInfo:
+  equipmentList:
+    - name: 电子战团自动化指挥所
+      equipmentTypeId: "00002"
+      seats:
+        - name: poste de travail de commandement et de contrôle
+          seatCode: 1000
+        - name: poste de travail de planification générale
+          seatCode: 1001
+        - name: poste de travail des opérations
+          seatCode: 1010
+        - name: Siège de gestion et édition générale des informations
+          seatCode: 1011
+        - name: poste de travail de traitement des données de reconnaissance
+          seatCode: 1100
+        - name: poste de travail de gestion et de contrôle du système
+          seatCode: 1101
+        - name: poste de travail de gestion des transmissions
+          seatCode: 1110
+        - name: poste de travail de réserve
+          seatCode: 1111
+    - name: 多功能机载雷达干扰站群组自动化指挥所
+      equipmentTypeId: "00003"
+      seats:
+        - name: poste de travail de commandement et de contrôle
+          seatCode: 1000
+        - name: poste de travail des opérations
+          seatCode: 1001
+        - name: poste de travail de traitement des données de reconnaissance
+          seatCode: 1010
+        - name: poste de travail de gestion et de contrôle du système
+          seatCode: 1011
+        - name: poste de travail de réserve
+          seatCode: 1100
+    - name: 指挥及导航对抗群组自动化指挥所
+      equipmentTypeId: "00004"
+      seats:
+        - name: poste de travail de commandement et de contrôle
+          seatCode: 1000
+        - name: poste de travail des opérations
+          seatCode: 1001
+        - name: poste de travail de traitement des données de reconnaissance
+          seatCode: 1010
+        - name: poste de travail de gestion et de contrôle du système
+          seatCode: 1011
+        - name: poste de travail de réserve
+          seatCode: 1100
+    - name: 毫米波雷达干扰站
+      equipmentTypeId: "00006"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+    - name: 多功能机载雷达干扰站
+      equipmentTypeId: "00007"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+    - name: 无线电技术侦察站
+      equipmentTypeId: "00008"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+        - name: Siège de traitement des informations
+          seatCode: 1001
+        - name: Siège de reconnaissance
+          seatCode: 1010
+    - name: 远距离探测及控制系统雷达干扰站（SDLC-1）
+      equipmentTypeId: "00009"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+    - name: 远距离探测及控制系统雷达干扰站（SDLC-2）
+      equipmentTypeId: "00010"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+    - name: 合成孔径雷达（SAR）干扰站
+      equipmentTypeId: "00011"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+    - name: (超短波综合通信干扰站)无线电导航、敌我识别、数据链及无人机测控链路干扰站
+      equipmentTypeId: "00013"
+      seats:
+        - name: Siège du commandant
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+        - name: Siège de traitement des informations
+          seatCode: 1010
+    - name: 地空及空空V/UHF通信干扰站
+      equipmentTypeId: "00014"
+      seats:
+        - name: Siège du commandant
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+    - name: 无源光电干扰站
+      equipmentTypeId: "00016"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+    - name: 有源激光干扰站
+      equipmentTypeId: "00017"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+        - name: Siège d'opérateur
+          seatCode: 1001
+    - name: 三维无源侦察系统（无源雷达）
+      equipmentTypeId: "00019"
+      seats:
+        - name: Siège d'opération de chef de station
+          seatCode: 1000
+#        - name: 站长工作席(从)   联调暂时不用从
+#          seatCode: 1001
+        - name: Siège d'opérateur
+          seatCode: 1010
+    - name: 远程雷达站
+      equipmentTypeId: "00020"
+      seats: []
+    - name: 中程雷达站
+      equipmentTypeId: "00021"
+      seats: []
+    - name: 侦察和干扰设备维修车
+      equipmentTypeId: "00023"
+      seats:
+        - name: Siège d'opérateur
+          seatCode: 1000
+        - name: Siège d'opération mobile
+          seatCode: 1001
+    - name: 电源设备维修车
+      equipmentTypeId: "00024"
+      seats:
+        - name: Siège d'opérateur
+          seatCode: 1000
+        - name: Siège d'opération mobile
+          seatCode: 1001
+    - name: 备品备件车
+      equipmentTypeId: "00025"
+      seats:
+        - name: Siège d'opérateur
+          seatCode: 1000
+

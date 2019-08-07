@@ -1,0 +1,155 @@
+{
+  "systemKey" : "ZD-UOP",
+  "appKey" : "MYSQLUSER",
+  "domains" : [ {
+    "name" : "lw",
+    "configs" : [ {
+      "key" : "lw.sql.user.desc",
+      "value" : null,
+      "desc" : null
+    }, {
+      "key" : "lw.sql.user.pwd",
+      "value" : "123",
+      "desc" : null
+    }, {
+      "key" : "lw.sql.user.name",
+      "value" : "lw",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "test",
+    "configs" : [ {
+      "key" : "test.sql.user.name",
+      "value" : "test",
+      "desc" : null
+    }, {
+      "key" : "test.sql.user.desc",
+      "value" : null,
+      "desc" : null
+    }, {
+      "key" : "test.sql.user.pwd",
+      "value" : "123456",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "sysmon",
+    "configs" : [ {
+      "key" : "sysmon.sql.user.name",
+      "value" : "sysmon",
+      "desc" : null
+    }, {
+      "key" : "sysmon.sql.user.pwd",
+      "value" : "123456",
+      "desc" : null
+    }, {
+      "key" : "sysmon.sql.user.desc",
+      "value" : "系统监控",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "wz",
+    "configs" : [ {
+      "key" : "wz.sql.user.desc",
+      "value" : "通信录test",
+      "desc" : null
+    }, {
+      "key" : "wz.sql.user.name",
+      "value" : "wz",
+      "desc" : null
+    }, {
+      "key" : "wz.sql.user.pwd",
+      "value" : "123456",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "msg",
+    "configs" : [ {
+      "key" : "msg.sql.user.name",
+      "value" : "msg",
+      "desc" : null
+    }, {
+      "key" : "msg.sql.user.desc",
+      "value" : "实时信息传输服务",
+      "desc" : null
+    }, {
+      "key" : "msg.sql.user.pwd",
+      "value" : "123456",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "message",
+    "configs" : [ {
+      "key" : "message.sql.user.desc",
+      "value" : "即时消息",
+      "desc" : null
+    }, {
+      "key" : "message.sql.user.pwd",
+      "value" : "message",
+      "desc" : null
+    }, {
+      "key" : "message.sql.user.name",
+      "value" : "message",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "mail",
+    "configs" : [ {
+      "key" : "mail.sql.user.name",
+      "value" : "mail",
+      "desc" : null
+    }, {
+      "key" : "mail.sql.user.pwd",
+      "value" : "mail",
+      "desc" : null
+    }, {
+      "key" : "mail.sql.user.desc",
+      "value" : "文电",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "schedule",
+    "configs" : [ {
+      "key" : "schedule.sql.user.pwd",
+      "value" : "schedule",
+      "desc" : null
+    }, {
+      "key" : "schedule.sql.user.name",
+      "value" : "schedule",
+      "desc" : null
+    }, {
+      "key" : "schedule.sql.user.desc",
+      "value" : "作战值班\n",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "fight",
+    "configs" : [ {
+      "key" : "fight.sql.user.pwd",
+      "value" : "fight",
+      "desc" : null
+    }, {
+      "key" : "fight.sql.user.desc",
+      "value" : "作战指挥",
+      "desc" : null
+    }, {
+      "key" : "fight.sql.user.name",
+      "value" : "fight",
+      "desc" : null
+    } ]
+  }, {
+    "name" : "huaru",
+    "configs" : [ {
+      "key" : "huaru.sql.user.pwd",
+      "value" : "huaru",
+      "desc" : null
+    }, {
+      "key" : "huaru.sql.user.desc",
+      "value" : null,
+      "desc" : null
+    }, {
+      "key" : "huaru.sql.user.name",
+      "value" : "huaru",
+      "desc" : null
+    } ]
+  } ]
+}
